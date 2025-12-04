@@ -13,7 +13,7 @@ La aplicación se conecta a servicios de **backend** a través de solicitudes HT
 - **TypeScript**
 - **PrimeReact**
 - **React Router**
-- **Axios / Fetch API**
+- **Axios **
 
 ### Backend realizado en lenguaje Kotlin.
 La aplicación se conecta a servicios backend mediante APIs REST.  
