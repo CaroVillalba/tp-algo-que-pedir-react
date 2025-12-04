@@ -1,0 +1,31 @@
+.RestorantToReview{
+    
+    background-color: aliceblue;
+    border-radius: 2%;
+    padding:0.2rem 1rem 0.2rem 1rem;
+    margin:1rem;
+}
+
+.flexContainer{
+    display:flex;
+    justify-content: space-between;
+    align-items:end;
+    padding-bottom:0.5rem;
+}
+
+.image-local {
+    object-fit: cover;
+    object-position: center;
+    height:auto;
+    width:80px;
+    height:80px;
+    border-radius: 5px;
+}
+
+.columna1{
+    padding-bottom:1rem;
+}
+
+.columna1{
+    padding-bottom:0.4rem;
+}

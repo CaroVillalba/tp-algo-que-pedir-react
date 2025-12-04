@@ -1,0 +1,36 @@
+#root {
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  padding: 1.5rem;
+  padding-bottom: 3rem;
+  flex: 1;
+}
+
+.auth-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+  padding: 1rem;
+  box-sizing: border-box; 
+}
+
+.p-password {
+  display: block;      
+  width: 100% ;
+}
+
+.p-password-input {
+  width: 100% ;
+  padding-right: 2.5rem ; 
+}
+

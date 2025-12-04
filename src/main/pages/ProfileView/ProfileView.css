@@ -1,0 +1,78 @@
+.input-form{
+    display: flex;
+    gap: 0.5rem;
+    font-weight: 500;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-top: 1.5rem;
+}
+
+.input-form-row{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.input-form-row .input-form{
+    flex: 1 1 50px; 
+    min-width: 0;
+}
+
+.preference-button{
+    cursor: pointer;
+    border-radius: 0.2rem;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    padding: 1rem 0rem;
+
+    
+}
+
+.preference-button h4 {
+    margin: 0;
+    flex-grow: 1;
+}
+
+
+.preference-button:hover{
+    background-color: #fff3e0;
+    
+}
+
+.button-primary{
+    width: 100%;
+    top: 2rem;
+    background-color: var(--color-primary);
+    border: none;
+    padding: 0.8rem;
+    border-radius: 8px;
+}
+
+.p-button-label{
+    font-weight: 700;
+    color: var(--color-container);
+}
+
+.p-button:focus {
+    box-shadow: 0 0 0 0.2rem var(--color-primary);
+}
+
+.profile-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.profile-avatar .p-avatar-xl  {
+    width: 6rem;
+    height: 6rem;
+}
+
+
+
+
+

@@ -1,0 +1,144 @@
+:root {
+  --color-primary: #BC7B43;
+  --color-secondary: #CE9C71;
+  --color-background: #EFDECF;
+  --color-container: #fff;
+  --color-dark: #1F2937;
+  --color-text-light: #6B7280;
+  --color-label: #ac9685;
+  --color-checkbox-label: #4B5563;
+  --color-border: #DFBD9F;
+  --color-border-bottom: #e5e7eb;
+  --color-logo: #865021;
+  --color-section-bg: #F9FAFB;
+  --color-checkbox-check: #ffffff;
+  --shadow-light: rgba(0, 0, 0, 0.1);
+  --shadow-hover: rgba(0, 0, 0, 0.2);
+  --color-section-shadow: rgba(0, 0, 0, 0.05);
+  --color-border-light: #ddd;
+  --color-border-lighter: #ccc;
+  --color-border-lightest: #eee;
+  --color-description: #DCAE94;
+  --color-tooltip: #ddb919;
+  
+  font-family: "Rubik", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: var(--color-background);
+  color: var(--color-dark);
+}
+
+html, :root {
+  /* Colores Principales (Usando tu Marrón) */
+  --primary-color: var(--color-primary);
+  --primary-color-text: #ffffff;
+
+  /* Colores de Superficie (Fondos) */
+  --surface-ground: var(--color-background);
+  --surface-a: var(--color-container);
+  --surface-b: var(--color-section-bg);
+  --surface-c: #f5f2f0;
+  --surface-d: #f3ece6;
+
+  --text-color: var(--color-dark);
+  --text-color-secondary: var(--color-text-light);
+
+  --surface-border: var(--color-border);
+  
+  font-family: "Rubik", sans-serif;
+}
+
+/* Botón Primario (p-button-custom-primary) */
+.p-button-custom-primary {
+  background: var(--color-primary) !important;
+  border-color: var(--color-primary) !important;
+  color: var(--primary-color-text) !important;
+  border-radius: 0.5rem !important;
+  font-weight: 500 !important;
+  margin: 0 !important;
+  transition: background-color 0.25s, border-color 0.25s !important;
+}
+.p-button-custom-primary:hover {
+  background: var(--color-secondary) !important;
+  border-color: var(--color-secondary) !important;
+}
+
+.p-button-custom-primary.p-disabled {
+  background: var(--color-logo) !important;
+  border-color: var(--color-primary) !important;
+  color: var(--primary-color-text) !important;
+  cursor: not-allowed !important;
+}
+
+/* Botón Secundario (p-button-custom-secondary) */
+.p-button-custom-secondary {
+  background: var(--color-secondary) !important; /* blanco */
+  color: var(--color-dark) !important;
+  border-color: var(--color-border) !important;
+  border-radius: 0.5rem !important;
+  font-weight: 500 !important;
+  margin: 0 !important;
+  transition: background-color 0.25s, border-color 0.25s !important;
+}
+.p-button-custom-secondary:hover {
+  background: var(--color-label) !important;
+  color: var(--color-dark) !important;
+  border-color: var(--color-border) !important;
+}
+
+/* Iconos */
+.p-button-custom-icon-color.p-button-text {
+  color: var(--color-text-light) !important;
+}
+.p-button-custom-icon-color.p-button-text:hover {
+  background: var(--surface-b) !important;
+  color: var(--color-dark) !important;
+}
+
+/* Cambia el color de los botones + y - del InputNumber */
+.p-inputnumber .p-button {
+  background-color: var(--color-primary) !important;
+  border-color: var(--color-primary) !important;
+  color: var(--primary-color-text) !important;
+  width: 4rem !important;
+}
+
+/* Hover de los botones */
+.p-inputnumber .p-button:hover {
+  background-color: var(--color-secondary) !important;
+  border-color: var(--color-secondary) !important;
+  color: var(--primary-color-text) !important;
+}
+
+.p-tabview .p-tabview-nav li.p-tabview-selected a {
+  color: var(--color-logo) !important;
+  border-color: var(--color-logo) !important;
+}
+
+/* Dialog de alerta de carrito */
+.p-dialog .p-dialog-footer button {
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+}
+
+.p-button-label {
+  font-weight: 700;
+  color: var(--color-container);
+}
+
+.p-calendar-w-btn-right .p-datepicker-trigger {
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+}
+
+.p-button.p-button-text {
+  color: var(--color-primary);
+}

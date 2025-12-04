@@ -1,0 +1,167 @@
+
+
+.search-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.search-title {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.shopping-cart-container {
+  display: flex;
+  align-items: center;
+}
+
+.shopping-cart-icon {
+  font-size: 1.5em;
+  color: var(--color-secondary);
+}
+
+.search-bar-container {
+  padding-top: 1rem;
+}
+
+.search-input:focus {
+  border-color: #000000;
+  box-shadow: none;
+}
+.search-input {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 0.3rem;
+  background-color: white;
+  padding-right: 2rem; 
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.8rem;
+  padding-top: 1rem;
+}
+
+.checkbox-label {
+  font-size: 1.03rem;
+  color: #916b2e;
+}
+
+.p-checkbox .p-checkbox-box {
+  border: 1px solid var(--color-secondary);
+}
+
+.p-checkbox .p-checkbox-box.p-highlight {
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+}
+
+.locales-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0;
+  padding-top: 1rem;
+  padding-bottom: 2.5rem
+}
+
+ .grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 1rem; 
+  row-gap: 2rem;
+  justify-items: center; 
+}
+
+.grid-item {
+  width: 100%; 
+  max-width: 220px; 
+  padding: 0;
+}
+
+.local-card {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  overflow: hidden;
+  cursor: pointer;
+  background-color: transparent;
+  transition: transform 0.1s ease;
+}
+
+.local-card:hover {
+  transform: scale(1.03);
+}
+
+.p-card .p-card-body {
+  padding: 0;
+  box-shadow: none;
+}
+
+.p-card-content {
+  padding: 0;
+}
+
+.p-card{
+  box-shadow: none;
+}
+.store-img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 1rem;
+  display: block;
+  aspect-ratio: 16 / 9;
+}
+
+.local-img-container {
+  position: relative;
+  width: 100%;
+}
+
+.local-pin {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 50%;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.local-pin i {
+  color: #d32f2f; 
+  font-size: 1rem;
+}
+
+
+.local-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 0.5rem;
+}
+
+.local-nombre {
+  font-size: 1rem;
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.local-direccion {
+  font-size: 0.85rem;
+  color: var(--color-label);
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

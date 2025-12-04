@@ -1,0 +1,62 @@
+.starContainer {
+    display: flex;
+    justify-content: space-around;
+    gap:8px;
+    align-items:baseline;
+}
+
+.star input[type="radio"] {
+    display:flex;
+    align-items: baseline;
+    position: absolute;
+    opacity: 0;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.star-icon {
+  width: 36px;
+  height: 36px;
+  stroke:rgba(0,0,0,1);
+  fill: rgba(0,0,0,0.0);
+  transition: transform 0.15s ease, fill 0.15s ease;
+  cursor: pointer;
+  transform-origin: center;
+  display: inline;
+  align-self: center;
+}
+
+.star:hover .star-icon,
+.star input[type="radio"]:focus + .star-icon {
+  transform: scale(1.08) rotate(-6deg);
+  outline: none;
+}
+
+.star input[type="radio"]:checked + .star-icon {
+  fill: #f5b301; /* gold */
+  transform: scale(1.12);
+  filter: drop-shadow(0 1px 2px rgba(0,0,0,0.2));
+}
+
+/* Make selecting previous stars easier (for rating UX) */
+.star { position: relative; }
+.star + .star { margin-right: 0; }
+
+/* Hover/preview effect when moving across stars */
+.star:hover ~ .star .star-icon,
+.star input[type="radio"]:focus ~ .star .star-icon {
+  fill: #f3d6a0;
+}
+
+textarea {
+    resize: none;
+    width: 100%;
+    border-radius: 2%;
+    font-family: "Rubik", sans-serif;
+}
+

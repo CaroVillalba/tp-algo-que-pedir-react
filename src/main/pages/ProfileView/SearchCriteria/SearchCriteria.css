@@ -1,0 +1,108 @@
+.criteria-card{
+   border: none;
+   background-color: var(--color-container);
+   border-radius: 10px;
+   box-shadow: none;
+   height: auto;
+   padding: 1rem;
+}
+
+.card-text-header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.header-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    gap: 7.5rem;
+}
+
+.card-text-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.sub-subtitle{
+    margin-top: 0.5rem; 
+    padding-top: 0;
+}
+
+.criteria-list{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.criteria-card .p-card-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-text{
+    flex-direction: column;
+    display: flex;
+}
+
+.sub-subtitle{
+    display: flex;
+    position: static;
+    color: var(--color-text-light);
+    font-size: 0.97rem;
+    padding-top: 1rem;
+}
+
+
+.custom-checkbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.custom-checkbox .p-checkbox-input{
+    background-color: var(--color-primary);
+}
+
+.custom-checkbox .p-checkbox{
+    transform: none;
+    transform-origin: center;
+}
+
+.custom-checkbox .p-checkbox-box{
+    transform: scale(1.4);
+    border-radius: 0.35rem;
+    border-width: 2px;
+
+}
+
+.custom-checkbox .p-checkbox-icon {
+    font-size: 1.2rem;
+    line-height: 1;
+}
+
+.distance-row {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    margin-top: 10px;
+    width: 100%;
+}
+
+.distance-row .p-inputnumber-input{
+    width: 50px;
+    text-align: center;
+}
+
+.distance-row .p-inputnumber .p-button {
+    padding: 0.5rem;
+}
+
+

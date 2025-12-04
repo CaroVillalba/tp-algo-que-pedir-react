@@ -1,0 +1,51 @@
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.OrderCard {
+    display:flex;
+}
+
+.p-image .p-component {
+    width: auto;
+    height: auto;
+}
+
+.image-local {
+    object-fit: cover;
+    object-position: center;
+}
+
+.order-card-text {
+    width: 60%;
+    padding-left:1rem;
+}
+
+.order-card-button {
+    display: flex;
+    align-items: center;
+    padding-left: 2.5rem;
+}
+
+.cancel-button {
+    color: red;
+}
+
+.delete-button {
+    color: var(--color-label);
+}
+
+.button-icon{
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.order-card-text {
+    text-decoration: none;
+    color: inherit;
+}
+
+.secondary-text{
+    color: var(--color-label);
+}

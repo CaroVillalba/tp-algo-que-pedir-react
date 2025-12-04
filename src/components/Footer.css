@@ -1,0 +1,72 @@
+.footer-container {
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  box-shadow: var(--color-section-shadow);
+  z-index: 1000;
+
+ 
+}
+
+/* Contenedor del TabMenu */
+.bottom-nav .p-tabmenu-nav {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  border: none;
+  background-color: transparent;
+}
+
+/* Cada ítem ocupa el mismo espacio */
+.bottom-nav .p-tabmenuitem {
+  flex: 1;
+  text-align: center;
+}
+
+/* El enlace que contiene ícono y texto */
+.bottom-nav .p-tabmenuitem a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* centra verticalmente el conjunto */
+  height: 64px; /* altura uniforme tipo BottomNavigation */
+  gap: 0.2rem; /* separación entre ícono y texto */
+  text-decoration: none;
+  color: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+/* Ícono */
+.bottom-nav .p-menuitem-icon {
+  font-size: 1.6rem;
+  line-height: 1;
+}
+
+/* Texto */
+.bottom-nav .p-menuitem-text {
+  font-size: 0.8rem;
+  line-height: 1;
+}
+
+/* Ítem activo */
+.bottom-nav .p-highlight a,
+.bottom-nav .p-highlight .p-menuitem-icon {
+  color: var(--color-primary);
+}
+
+/* Sin transición molesta */
+.bottom-nav .p-tabmenuitem a,
+.bottom-nav .p-menuitem-icon {
+  transition: none;
+}
+
+.p-tabmenu .p-tabmenu-nav .p-tabmenuitem .p-menuitem-link .p-menuitem-icon {
+  margin: 0;
+  border-color: var(--color-primary);
+}
+
+.p-tabmenu .p-tabmenu-nav .p-tabmenuitem.p-highlight .p-menuitem-link{
+  border-color: var(--color-primary);
+}

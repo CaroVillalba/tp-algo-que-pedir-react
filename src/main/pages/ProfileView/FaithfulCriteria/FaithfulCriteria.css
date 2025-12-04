@@ -1,0 +1,133 @@
+.criteria-card{
+   border: none;
+   background-color: var(--color-container);
+   border-radius: 10px;
+   box-shadow: none;
+   height: auto;
+   padding: 1rem;
+}
+
+.card-text{
+    flex-direction: column;
+    display: flex;
+}
+
+.title {
+  font-weight: 650;
+  font-size: 1.5rem;
+  color: var(--color-dark);
+}
+
+.subtitle {
+  color: var(--color-text-light);
+  font-size: 1rem;
+}
+
+.faithful-criteria-container {
+    position: relative;
+    background-color: var(--color-container);
+    padding-bottom: 4rem;
+    border-radius: 8px;
+}
+
+.remove-button {
+    color: #a0a0a0; 
+    height: 25px;
+    border: none;
+    padding: 0;
+    margin-left: auto; 
+}
+
+.p-button-danger{
+    height: 35px;
+    width: 35px;
+    border: none;
+}
+
+.restaurants-dataview {
+    padding: 0;
+    border: none;
+}
+
+
+.restaurants-dataview .p-dataview-content {
+    padding: 0;
+}
+
+
+.restaurant-item {
+    display: flex;
+    align-items: center;
+    padding: 1rem 0.4rem;
+    gap: 1rem;
+    justify-content: center;
+    width: 100%;
+    border-radius: 2rem;
+}
+
+.restaurants-dataview .grid {
+  display: flex;
+  border-radius: 2rem;
+}
+
+.restaurants-dataview .grid-nogutter {
+  padding-left: 1rem;
+}
+
+.restaurant-item:last-child {
+    border-bottom: none; 
+}
+
+
+.restaurant-image {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 8px; 
+    flex-shrink: 0; 
+}
+
+
+.restaurant-details {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1; 
+    margin-right: 10px;
+}
+
+.restaurant-name {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #333;
+}
+
+.restaurant-info span {
+    font-size: 0.85rem;
+    color: #888;
+}
+
+.add-button-container {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem; 
+}
+
+.add-button {
+    background-color: var(--color-primary);
+    border: none ;
+    width: 35px;
+    height: 35px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.p-picklist-source-controls{
+    display: none;
+}
+
+.p-picklist-target-controls{
+    display: none;
+}
+
+.restaurants-dataview .p-dataview-emptymessage{
+    padding-left: 1rem;
+}

@@ -1,0 +1,126 @@
+.restaurant-menu-container {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.restaurant-header {
+    width: 100%;
+    overflow: hidden;
+    aspect-ratio: 352 / 180;
+}
+
+.restaurant-image-wide {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.restaurant-image-inner {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.restaurant-content {
+    padding: 1rem;
+    background-color: #fff;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.restaurant-body {
+    margin-bottom: 1rem;
+}
+
+.restaurant-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+}
+
+.restaurant-meta {
+    color: #6b7280;
+    font-size: 0.9rem;
+}
+
+.menu-section {
+    padding: 0;
+    margin-top: 1rem;
+}
+
+.menu-section-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #7b4f28;
+    margin-bottom: 0.75rem;
+}
+
+.menu-dish {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.75rem 0;
+    border-top: 1px solid var(--surface-border);
+    width: 100%;
+    aspect-ratio: 352 / 180;
+    box-sizing: border-box;
+}
+
+.menu-dish:last-child {
+    border-bottom: 1px solid var(--surface-border);
+}
+
+.dish-info {
+    flex: 1;
+    padding-right: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.dish-name {
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+}
+
+.dish-description {
+    display: block;
+    color: #7b4f28;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+    flex-grow: 1;
+}
+
+.dish-price-tag {
+    display: inline-block;
+    background-color: #6b3f1f;
+    color: #fff;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    font-size: 0.9rem;
+    width: 3.7rem;
+}
+
+.menu-dish img {
+    width: 6rem;
+    height: 6rem;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+
+.checkout-bar {
+    background-color: #fff;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    z-index: 1000;
+}

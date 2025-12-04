@@ -1,0 +1,43 @@
+.add-ingredient{
+    display: flex;
+    position: sticky;
+    top: 10rem;
+}
+
+.ingredient-list .grid {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-background);
+    padding-left: 1rem;
+}
+
+
+.ingredient-data-row {
+    display: flex; 
+    flex-direction: row; 
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.ingredient-list-row .p-card{
+    background-color: var(--color-background);
+}
+
+
+.ingredient-name {
+    margin-bottom: 0; 
+    font-weight: bold; 
+}
+
+
+.ingredient-remove-button {
+    padding: 1rem; 
+    width: auto;
+}
+
+.button-ingredients{
+    position: sticky;
+    display: flex;
+    top: 50rem;
+}

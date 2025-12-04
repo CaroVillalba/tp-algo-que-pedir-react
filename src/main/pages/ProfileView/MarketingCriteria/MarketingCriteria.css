@@ -1,0 +1,61 @@
+.marketing-list-row{
+    background-color: var(--color-container);
+    display: flex;
+    flex-direction: column;
+}
+
+.marketing-list-row .grid{
+    background-color: var(--color-container);
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.add-button-marketing{
+    position: sticky;
+    right: 2rem;
+    bottom: 0rem;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.criteria-card-marketing{
+    border: none;
+    background-color: var(--color-container);
+    border-radius: 10px;
+    box-shadow: none;
+    height: auto;
+    padding: 1rem;
+    flex-direction: column;
+}
+
+.marketing-list .grid .grid-nogutter{
+    padding-left: 0;
+}
+
+
+.marketing-list .grid-nogutter{
+    padding-left: 0rem;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+}
+
+.marketing-data-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.marketing-name{
+    font-weight: 400;
+    color: var(--color-text-light);
+}
+
+.marketing-remove-button{
+    width: auto;
+    padding-right: 0.6rem;
+}
+
