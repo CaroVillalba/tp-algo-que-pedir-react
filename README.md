@@ -1,73 +1,50 @@
-# React + TypeScript + Vite
+# Algo Que Pedir - React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Descripción
+Este proyecto es una **aplicación web mobile-first** desarrollada con **React y TypeScript**, enfocada en ofrecer una experiencia optimizada para dispositivos móviles.  
+La aplicación se conecta a servicios de **backend** a través de solicitudes HTTP, gestionando datos dinámicos y mostrando la información mediante componentes de **PrimeReact**, para lograr una interfaz moderna y consistente.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tecnologías Utilizadas
 
-## React Compiler
+### Frontend
+- **React**
+- **TypeScript**
+- **PrimeReact**
+- **React Router**
+- **Axios / Fetch API**
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+### Backend realizado en lenguaje Kotlin.
+La aplicación se conecta a servicios backend mediante APIs REST.  
+Incluye:
+- Consumo de endpoints de lectura y escritura
+- Manejo de errores y estados de carga
+- Procesamiento tipado de datos en el cliente
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🎨 Diseño y UI
+La interfaz fue desarrollada siguiendo criterios **mobile-first**:
+- Diseño responsivo y adaptable
+- Componentes de UI reutilizables
+- Uso de **PrimeReact** para tarjetas, botones, inputs y layouts
+- Navegación simple e intuitiva
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## 📚 Aprendizajes
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+### Este proyecto me permitió:
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+- Desarrollar una aplicación mobile-first usando React y TypeScript.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- Integrar componentes avanzados con PrimeReact.
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- Conectar un frontend con servicios backend reales.
+
+- Manejar estados de carga, errores y ciclos de vida en React.
+
+- Tipar respuestas de APIs y compartir modelos.
+
+- Trabajar con arquitectura modular y reutilización de componentes.
