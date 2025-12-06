@@ -1,7 +1,7 @@
 # Algo Que Pedir - React
 
 ## 📌 Descripción
-Este proyecto es una **aplicación web mobile-first** desarrollada con **React y TypeScript**, enfocada en ofrecer una experiencia optimizada para dispositivos móviles.  
+Este proyecto es una **aplicación web mobile** desarrollada con **React y TypeScript**, enfocada en ofrecer una experiencia optimizada para dispositivos móviles.  
 La aplicación se conecta a servicios de **backend** a través de solicitudes HTTP, gestionando datos dinámicos y mostrando la información mediante componentes de **PrimeReact**, para lograr una interfaz moderna y consistente.
 
 ---
@@ -25,8 +25,7 @@ Incluye:
 ---
 
 ## 🎨 Diseño y UI
-La interfaz fue desarrollada siguiendo criterios **mobile-first**:
-- Diseño responsivo y adaptable
+La interfaz fue desarrollada siguiendo criterios:
 - Componentes de UI reutilizables
 - Uso de **PrimeReact** para tarjetas, botones, inputs y layouts
 - Navegación simple e intuitiva
@@ -35,9 +34,9 @@ La interfaz fue desarrollada siguiendo criterios **mobile-first**:
 
 ## 📚 Aprendizajes
 
-### Este proyecto me permitió:
+### Este proyecto permitió:
 
-- Desarrollar una aplicación mobile-first usando React y TypeScript.
+- Desarrollar una aplicación mobile usando React y TypeScript.
 
 - Integrar componentes avanzados con PrimeReact.
 
@@ -48,3 +47,13 @@ La interfaz fue desarrollada siguiendo criterios **mobile-first**:
 - Tipar respuestas de APIs y compartir modelos.
 
 - Trabajar con arquitectura modular y reutilización de componentes.
+
+---
+
+## Equipo de trabajo: 
+
+- Lucía Arrieta
+- Valentino Salguero
+- Elias Serantes
+- Carolina Villalba
+- Ulises Zagare
